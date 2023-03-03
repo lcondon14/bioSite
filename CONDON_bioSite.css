@@ -27,7 +27,7 @@ h1 {
     font-family: 'Archivo Black', Georgia, serif;
     background-color: #2F3B1C;
     color: white;
-    font-size: 12vw;
+    font-size: 60px;
     text-transform: uppercase;
     border-radius: 20px;
     text-align: center;
@@ -50,6 +50,7 @@ h2 {
    padding-top: 40px;
    padding-bottom: 40px;
 }
+
 .button_group button {
     font-family: 'Archivo Black', Georgia, serif;
     text-transform: uppercase;
@@ -70,7 +71,7 @@ color: white;
 padding: 10px 10px;
 }
 
-.button_group button::after {
+.button_group button:after {
     font-family: 'Archivo Black', Georgia, serif;
     text-transform: uppercase;
     font-size: 22px;
@@ -99,6 +100,7 @@ footer {
     margin-left: auto;
     margin-right: auto;
     width: 40%;
+    padding-top: 20px;
 }
 
 .container {
@@ -110,8 +112,8 @@ footer {
 }
 .bottom {
     position: relative;
-    bottom: 40px;
     text-align: center;
+    color: #2F3B1C;
 }
 .column {
     float: left;
@@ -147,4 +149,23 @@ footer {
 
 .img2 {
     width: 95%;
+}
+
+#navbar {
+    background-color: #2F3B1C;
+    overflow: hidden;
+    font-family:  'Montserrat', Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    border-radius: 4px;
+    width: 100%;
+}
+
+#navbar a {
+    float: none;
+    display: inline-block;
+    margin-left: 200px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color:white;
 }
